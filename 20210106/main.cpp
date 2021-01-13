@@ -6,5 +6,16 @@ int main() {//所有的c++程序包含main且返回整数
     cin>>a>>b;//cin输入对象，赋值；>>提取运算符
     sum =a+b;
     cout << "a+b=" <<sum<<endl;//cout是对象;<<是插入运算符;endl是控制符，相当于换行符
+
+    int maxn;
+    maxn=max(a,b);
+    cout<< "a max b is " << maxn<<endl;
     return 0;
+}
+
+int max(int x,int y){
+    if( x> y)
+        return x;
+    else
+        return y;
 }
