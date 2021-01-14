@@ -194,7 +194,7 @@ CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_READELF:FILEPATH=C:/MinGW/bin/readelf.exe
 
-//Path to a program.
+//No help, variable specified on the command line.
 CMAKE_SH:FILEPATH=CMAKE_SH-NOTFOUND
 
 //Flags used by the linker during the creation of shared libraries
